@@ -1,0 +1,40 @@
+---
+SettingPage:
+  dec: 设置页面
+  locators:
+    -
+      name: 登出
+      type: id
+      value: in.togetu.video:id/settings_logout
+    -
+      name: 手机号
+      type: name
+      value: Phone Number
+    -
+      name: 个人资料
+      type: name
+      value: Edit Profile
+    -
+      name: 语言
+      tpye: name
+      value: Languages
+    -
+      name: 通知设置
+      type: name
+      value: Notification Settings
+    -
+      name: feed&back
+      type: name
+      value: Feedback & Help
+    -
+      name: 确定
+      type: id
+      value: android:id/button1
+
+
+
+
+
+
+
+

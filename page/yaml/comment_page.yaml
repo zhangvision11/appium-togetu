@@ -1,0 +1,20 @@
+---
+CommentPage:
+  dec: 评论页
+  locators:
+  -
+    name: 评论框打开
+    type: id
+    value: in.togetu.video:id/et_comment
+  - name: 评论框输入
+    type: id
+    value: in.togetu.video:id/editor_comment
+
+  - name: 评论发送
+    type: id
+    value: in.togetu.video:id/layout_push_comment
+
+
+
+
+

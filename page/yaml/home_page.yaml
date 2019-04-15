@@ -1,0 +1,96 @@
+---
+HomePage:
+  dec: 主界面
+  locators:
+    -
+      name: 我的
+      type: xpath
+      value: //android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[5]
+    -
+      name: 登陆按钮
+      type: id
+      value: in.togetu.video:id/view_login_mobile
+    -
+      name: 首页视频
+      type: xpath
+      value: //android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]
+    -
+      name: 关注人列表
+      type: xpath
+      value: //android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]
+    -
+      name: 拍摄按钮
+      type: id
+      value: in.togetu.video:id/iv_shot
+    -
+      name: 消息按钮
+      type: xpath
+      value: //android.widget.RelativeLayout/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[4]
+    -
+      name: 点赞按钮
+      type: id
+      value: in.togetu.video:id/rl_img_video_like
+    -
+      name: 点赞数
+      type: id
+      value: in.togetu.video:id/tv_video_like_count
+    -
+      name: 点赞动画
+      type: id
+      value: in.togetu.video:id/animation_like
+    -
+      name: 关注按钮
+      type: id
+      value: in.togetu.video:id/add_poster
+    -
+      name: 下载按钮
+      type: id
+      value: in.togetu.video:id/img_video_download
+    -
+      name: 下载数
+      type: id
+      value: in.togetu.video:id/tv_video_download_count
+    -
+      name: 评论按钮
+      type: id
+      value: in.togetu.video:id/img_video_comment
+    -
+      name: 评论数
+      type: id
+      value: in.togetu.video:id/tv_video_comment_count
+    -
+      name: 作者名称
+      type: id
+      value: in.togetu.video:id/tv_video_owner_name
+    -
+      name: 音乐名称
+      type: id
+      value: in.togetu.video:id/rl_music_marquee
+    -
+      name: 音乐集合页按钮
+      type: id
+      value: in.togetu.video:id/img_music_cd_bg
+    -
+      name: 搜索按钮
+      type: id
+      value: in.togetu.video:id/lottie_homepage_toolbar_left
+    -
+      name: 分享按钮
+      type: id
+      value: in.togetu.video:id/layout_share_root
+    -
+      name: 滑动提示蒙层
+      type: id
+      value: in.togetu.video:id/lottie_left_swipe_to_next
+    -
+      name: 作者头像
+      type: id
+      value: in.togetu.video:id/img_user_avatar
+
+
+
+
+
+
+
+

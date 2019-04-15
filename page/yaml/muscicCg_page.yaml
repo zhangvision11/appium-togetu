@@ -1,0 +1,51 @@
+---
+MusicCgPage:
+  dec: 音乐集合页
+  locators:
+    -
+      name: 音乐名称
+      type: id
+      value: in.togetu.video:id/tv_music_info
+    -
+      name: 音乐背景图
+      type: id
+      value: in.togetu.video:id/iv_music_record_cover
+    -
+      name: 音乐播放按钮
+      type: id
+      value: in.togetu.video:id/iv_music_record_play
+    -
+      name: 音乐使用人数
+      type: id
+      value: in.togetu.video:id/tv_user_people_number
+    -
+      name: 返回按钮
+      type: id
+      value: in.togetu.video:id/tv_trans_toolbar_back_icon
+    -
+      name: 收藏按钮
+      type: id
+      value: in.togetu.video:id/tv_trans_toolbar_right_third
+    -
+      name: 分享按钮
+      type: id
+      value: in.togetu.video:id/tv_trans_toolbar_right_second
+    -
+      name: Hot
+      type: id
+      value: in.togetu.video:id/tv_tool_left
+    -
+      name: Latest
+      type: id
+      value: in.togetu.video:id/tv_tool_righ
+    -
+      name: 拍摄按钮
+      type: id
+      value: btn_shoot
+
+
+
+
+
+
+

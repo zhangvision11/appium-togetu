@@ -1,0 +1,45 @@
+---
+MyPage:
+  dec: 主界面
+  locators:
+    -
+      name: 名字
+      type: id
+      value: in.togetu.video:id/nick_text
+    -
+      name: 设置
+      type: id
+      value: in.togetu.video:id/tv_trans_toolbar_right
+    -
+      name: like数
+      type: id
+      value: in.togetu.video:id/like_no_text
+    -
+      name: following数
+      type: id
+      value: in.togetu.video:id/following_no_text
+    -
+      name: fans数
+      type: id
+      value: in.togetu.video:id/fans_no_text
+    -
+      name: videos
+      type: id
+      value: in.togetu.video:id/tab0
+    -
+      name: likes
+      type: id
+      value: in.togetu.video:id/tab1
+
+    -
+      name: downloads
+      type: id
+      value: in.togetu.video:id/tab2
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+---
+ShotPage:
+  dec: 拍摄页
+  locators:
+  -
+    name: 申请权限
+    type: id
+    value: in.togetu.video:id/tv_allow_access
+  - name: 获取权限
+    type: id
+    value: com.android.packageinstaller:id/permission_allow_button
+
+  - name: 拍摄提示
+    type: id
+    value: in.togetu.video:id/tv_pop_tips
+  - name: 拍摄按钮
+    type: id
+    value: in.togetu.video:id/iv_record_btn
+  - name: 编辑完成
+    type: id
+    value: in.togetu.video:id/img_editor_complete
+  - name: 选取封面完成
+    type: id
+    value: in.togetu.video:id/tv_edit_done
+  - name: 上传按钮
+    type: id
+    value: in.togetu.video:id/video_publish_post
+  - name : 上传视频
+    type: id
+    value: in.togetu.video:id/iv_shoot_gallery
+
+  -
+    name: 第一个视频1
+    tpye: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]
+  - name: 剪切完成
+    type: id
+    value: in.togetu.video:id/iv_next
+  - name: 第一个视频
+    type: id
+    value: in.togetu.video:id/stuff_item_video_cover
+  - name: 魔法表情
+    type: id
+    value: in.togetu.video:id/iv_magic_props
+  - name: 选择音乐
+    tpye: xpath
+    value: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.ImageView
+  -
+    name: 切换摄像头
+    type: id
+    value: in.togetu.video:id/iv_record_switch_camera
+  -
+    name: 拍摄速度
+    type: id
+    value: in.togetu.video:id/iv_record_speed
+  -
+    name: 滤镜
+    type: id
+    value: in.togetu.video:id/iv_filter_cover
+  -
+    name: 美颜
+    type: id
+    value: in.togetu.video:id/tv_record_switch_beauty
+  -
+    name: 长按拍摄
+    type: name
+    value: Hold to shoot
+  -
+    name: epic
+    type: id
+    value: in.togetu.video:id/tv_rate_epic
+  -
+    name: slow
+    type: id
+    value: in.togetu.video:id/tv_rate_slow
+  -
+    name: fast
+    type: id
+    value: in.togetu.video:id/tv_rate_fast
+  -
+    name: flash
+    type: id
+    value: in.togetu.video:id/tv_rate_flash
+
+
+
+
+
+
+
